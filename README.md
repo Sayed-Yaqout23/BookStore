@@ -58,23 +58,23 @@ npm start: Starts the Express server.
 ### API Endpoints
 The backend server provides the following API endpoints:
 
-GET /authors: Returns a list of authors.
-GET /books: Returns a list of books.
-GET /stores: Returns a list of stores.
-GET /inventory: Returns the inventory for a specific store based on the storeId query parameter.
+ #### GET /authors: Returns a list of authors.
+#### GET /books: Returns a list of books.
+ #### GET /stores: Returns a list of stores.
+ #### GET /inventory: Returns the inventory for a specific store based on the storeId query parameter.
 Project Structure
-backend/: Contains the Express server and data files.
-frontend/: Contains the React application.
-data/: Contains JSON files with sample data for authors, books, stores, and inventory.
-src/: Contains the source code for the React application.
-components/: Contains reusable React components.
-pages/: Contains page components for different routes.
-services/: Contains API service functions.
-styles/: Contains CSS files for styling.
-Contributing
+ #### backend/: Contains the Express server and data files.
+  #### frontend/: Contains the React application.
+ #### data/: Contains JSON files with sample data for authors, books, stores, and inventory.
+  #### src/: Contains the source code for the React application.
+ #### components/: Contains reusable React components.
+  #### pages/: Contains page components for different routes.
+ #### services/: Contains API service functions.
+ #### styles/: Contains CSS files for styling.
+### Contributing
 Contributions are welcome! Please open an issue or submit a pull request.
 
-License
+### License
 This project is licensed under the MIT License.
 
 
