@@ -21,26 +21,33 @@ bookstore-app/ ├── backend/ │ ├── data/ │ │ ├── authors.
    git clone https://github.com/your-username/bookstore-app.git
    cd bookstore-app
 
-2. Install dependencies for the backend: 
-
+2. Install dependencies for the backend:
+    
+   ```sh
    cd backend
    npm install
 
-3. Install dependencies for the frontend: 
+3. Install dependencies for the frontend:
 
-cd ../frontend
-npm install
+   ```sh
+   cd ../frontend
+   npm install
 
 ### Running the Application
 #### 1.Start the backend server:
-cd backend
-npm start
+
+         ```sh
+         cd backend
+         npm start
 
 The backend server will run on http://localhost:3001.
 
 #### 2.Start the frontend application:
-cd ../frontend
-npm start
+
+         ```sh
+         cd ../frontend
+         npm start
+
 The frontend application will run on http://localhost:3000.
 
 ### Available Scripts
