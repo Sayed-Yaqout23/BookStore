@@ -1,0 +1,19 @@
+.stores-page {
+    padding: 20px;
+  }
+  
+  .stores-list {
+    list-style-type: none;
+    padding: 0;
+  }
+  
+  .store-item {
+    padding: 10px;
+    margin: 5px 0;
+    background-color: #f0f0f0;
+    cursor: pointer;
+  }
+  
+  .store-item:hover {
+    background-color: #e0e0e0;
+  }
