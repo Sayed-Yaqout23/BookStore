@@ -6,10 +6,16 @@ import AuthorsPage from './pages/Authors.jsx'; // Add the .jsx extension
 import BooksPage from './pages/Books.jsx'; // Add the .jsx extension
 import StoresPage from './pages/StoresPage.jsx'; // Add the .jsx extension
 import StoreInventoryPage from './pages/StoreInventoryPage.jsx'; // Add the .jsx extension
-
+import LeftSidebar from "./Components/LeftSidebar.jsx";
+import './App.css';
 function App() {
   return (
     <Router>
+      <div className="app-container">
+        {/* Left Sidebar */}
+        <LeftSidebar />
+         {/* Right Content Area */}
+         <div className="content-container">
       <Routes>
         <Route path="/" element={<ShopPage />} />
         <Route path="/authors" element={<AuthorsPage />} />
@@ -17,6 +23,8 @@ function App() {
         <Route path="/stores" element={<StoresPage />} />
         <Route path="/stores/:storeId/inventory" element={<StoreInventoryPage />} />
       </Routes>
+    </div>
+      </div>
     </Router>
   );
 }

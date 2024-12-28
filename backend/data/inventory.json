@@ -1,17 +1,54 @@
-{
-    "inventory": [
-      {
-        "storeId": 1,
-        "books": [
-            {"id":3,"author_id":11,"name":"id turpis integer aliquet massa id","isbn":"270878376-9","language":"Afrikaans","page_count":1306,"format":"paperback"},
+ [
+    {
+      "storeId": 1,
+      "books": [
+        {
+          "id": 1,
+          "author_id": 2,
+          "name": "eget tempus vel pede morbi porttitor",
+          "isbn": "247489521-3",
+          "language": "Northern Sotho",
+          "page_count": 2532,
+          "format": "paperback",
+          "price": 10.99
+        },
+        {
+          "id": 3,
+          "author_id": 11,
+          "name": "id turpis integer aliquet massa id",
+          "isbn": "270878376-9",
+          "language": "Afrikaans",
+          "page_count": 1306,
+          "format": "paperback",
+          "price": 5.99
+        }
 
-{"id":3,"author_id":11,"name":"id turpis integer aliquet massa id","isbn":"270878376-9","language":"Afrikaans","page_count":1306,"format":"paperback"}        ]
-      },
-      {
-        "storeId": 2,
-        "books": [
-            {"id":14,"author_id":1,"name":"platea dictumst etiam faucibus","isbn":"367323506-0","language":"Marathi","page_count":6414,"format":"ebook"}
-        ]
-      }
-    ]
-  }
+       
+      ]
+    },
+    {
+      "storeId": 2,
+      "books": [
+        {
+          "id": 14,
+          "author_id": 1,
+          "name": "platea dictumst etiam faucibus",
+          "isbn": "367323506-0",
+          "language": "Marathi",
+          "page_count": 6414,
+          "format": "ebook",
+          "price": 7.99
+        },
+        {
+          "id": 3,
+          "author_id": 11,
+          "name": "id turpis integer aliquet massa id",
+          "isbn": "270878376-9",
+          "language": "Afrikaans",
+          "page_count": 1306,
+          "format": "paperback",
+          "price": 3.99
+        }
+      ]
+    }
+  ]

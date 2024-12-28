@@ -1,3 +1,4 @@
+// filepath: /d:/newlab/React Task/bookstore-app/backend/server.js
 import express from 'express';
 import path from 'path';
 import { fileURLToPath } from 'url';
@@ -35,8 +36,18 @@ app.get('/stores', (req, res) => {
 });
 
 app.get('/inventory', (req, res) => {
-  const inventory = readJSONFile('inventory.json');
-  res.json(inventory);
+  try {
+    const { storeId } = req.query;
+    const inventory = readJSONFile('inventory.json');
+    if (storeId) {
+      const storeInventory = inventory.find(inv => inv.storeId === parseInt(storeId));
+      return res.json(storeInventory ? storeInventory.books : []);
+    }
+    res.json(inventory);
+  } catch (error) {
+    console.error('Error fetching inventory:', error);
+    res.status(500).json({ error: 'Internal Server Error' });
+  }
 });
 
 app.listen(PORT, () => {
