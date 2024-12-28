@@ -1,0 +1,6 @@
+{
+    "/authors": "/authors.json",
+    "/books": "/books.json",
+    "/stores": "/stores.json",
+    "/inventory": "/inventory.json"
+  }

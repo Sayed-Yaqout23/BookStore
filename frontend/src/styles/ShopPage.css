@@ -1,0 +1,87 @@
+/* filepath: /d:/newlab/React Task/bookstore-app/frontend/src/styles/ShopPage.css */
+
+.shop-page {
+    padding: 20px;
+  }
+  
+  .cards-container {
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(300px, 1fr));
+    gap: 20px;
+  }
+  
+  .card {
+    background-color: white;
+    padding: 20px;
+    border-radius: 8px;
+    display: flex;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  }
+  
+  .card img {
+    max-width: 100%;
+    border-radius: 8px;
+  }
+  
+  .card-title {
+    font-size: 1.2em;
+    margin: 10px 0;
+  }
+  
+  .card-author {
+    color: #555;
+  }
+  
+  .stores-container {
+    margin-top: 20px;
+  }
+  
+  .store-card {
+    background-color: #FFF6F1;
+    padding: 10px;
+    border-radius: 4px;
+    margin-bottom: 10px;
+    text-align: center;
+  }
+  .card-image{
+    width: 25%;
+    background: #FFEBE1;
+    padding: .6rem;
+    border-radius: 1rem 0 0 1rem;
+  }
+  .card-content{
+    width: 75%;
+    padding: .7rem;
+  }
+  
+  .sell-button {
+    margin-top: 10px;
+    padding: 10px 20px;
+    background-color: #007bff;
+    color: white;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+  }
+  
+  .sell-button:hover {
+    background-color: #0056b3;
+  }
+  
+  @media (max-width: 1024px) {
+    .cards-container {
+      grid-template-columns: repeat(auto-fill, minmax(200px, 1fr));
+    }
+  }
+  
+  @media (max-width: 768px) {
+    .cards-container {
+      grid-template-columns: repeat(auto-fill, minmax(150px, 1fr));
+    }
+  }
+  
+  @media (max-width: 480px) {
+    .cards-container {
+      grid-template-columns: 1fr;
+    }
+  }
