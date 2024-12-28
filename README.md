@@ -62,7 +62,7 @@ The backend server provides the following API endpoints:
 #### GET /books: Returns a list of books.
  #### GET /stores: Returns a list of stores.
  #### GET /inventory: Returns the inventory for a specific store based on the storeId query parameter.
-Project Structure
+### Project Structure
  #### backend/: Contains the Express server and data files.
   #### frontend/: Contains the React application.
  #### data/: Contains JSON files with sample data for authors, books, stores, and inventory.
