@@ -1,0 +1,17 @@
+{
+    "inventory": [
+      {
+        "storeId": 1,
+        "books": [
+            {"id":3,"author_id":11,"name":"id turpis integer aliquet massa id","isbn":"270878376-9","language":"Afrikaans","page_count":1306,"format":"paperback"},
+
+{"id":3,"author_id":11,"name":"id turpis integer aliquet massa id","isbn":"270878376-9","language":"Afrikaans","page_count":1306,"format":"paperback"}        ]
+      },
+      {
+        "storeId": 2,
+        "books": [
+            {"id":14,"author_id":1,"name":"platea dictumst etiam faucibus","isbn":"367323506-0","language":"Marathi","page_count":6414,"format":"ebook"}
+        ]
+      }
+    ]
+  }

@@ -1,7 +1,7 @@
 import React, { useState, useEffect } from 'react';
 import { fetchStores } from '../services/api';
 import { useNavigate } from 'react-router-dom';
-import './StoresPage.css';
+import '../styles/storesPage.css';
 const StoresPage = () => {
   const [stores, setStores] = useState([]);
   const navigate = useNavigate();

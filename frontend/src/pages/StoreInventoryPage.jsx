@@ -1,7 +1,8 @@
+// filepath: /d:/newlab/React Task/bookstore-app/src/pages/StoreInventoryPage.jsx
 import React, { useState, useEffect } from 'react';
 import { useParams } from 'react-router-dom';
 import { fetchStoreInventory, fetchBooks, fetchAuthors, addBookToInventory } from '../services/api';
-import './StoreInventoryPage.css';
+import '../styles/StoreInventoryPage.css';
 
 const StoreInventoryPage = () => {
   const { storeId } = useParams();
